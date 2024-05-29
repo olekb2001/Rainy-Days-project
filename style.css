@@ -152,7 +152,7 @@ section{
 .content .button:active{
     background-color: #B5B5B5;
 }
-
+/* product section */
 .product-heading{
     text-align: center;
     font-size: 39px;
@@ -223,6 +223,8 @@ section{
 .products .card .box .btn:active{
     color:#0A3641;
 }
+
+/* category section */
 .categories-heading{
     font-family:"Montserrat", sans-serif;
     font-size: 39px;
@@ -305,6 +307,8 @@ section{
     background-color: #B5B5B5;
 
 }
+
+/* discount section */
 .discount-section{
     display: flex;
     justify-content: center;
@@ -368,6 +372,8 @@ section{
     cursor: pointer;
     background: #B5B5B5;
 }
+
+/* footer section */
 footer .container{
     background-color: #0A3641;
 }
@@ -443,7 +449,7 @@ main{
 
 }
 
-
+/* contact us section */
 
 .placing{
     margin-top: 30rem;
@@ -451,22 +457,13 @@ main{
     display: flex;
     justify-content: center;
     }
-
-
 .contact{
     padding-top:10px;
     border-style:groove;
     border-width: 8px;
     max-width: 500px;
     min-width: 320px;
-    }
-
-    
-
-
-
-    
-
+}
 .contact .left-side-contact h3{
     color: #000;
     font-size: 24px;
@@ -538,8 +535,34 @@ main{
     border: 1px solid #000;
     padding-bottom: 40px;
     font-size: 18px;
+
+}
+/* About us page  */
+.about-us-header{
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.34px;
+    text-align: center;
+    text-decoration: underline;
+}
+.about-us-container{
+    display:flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.about-us-container .about-us-text p{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 5px;
+    min-width: 600px;
     
 }
+
 
 
 
@@ -624,7 +647,11 @@ main{
         flex-direction: column;
         margin-top: 12.5rem;
         
-        
+    }
+    .about-us-container{
+        flex-direction: column;
+
+
     }
 
 
