@@ -564,6 +564,38 @@ main{
     min-width: 600px;
     
 }
+/* shopping cart */
+.finish-order-heading{
+    text-align: center;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.34px;
+    color: black;
+    text-decoration: underline;
+    margin: 50px 0;
+}
+.proceed-to-checkout-btn{
+    width: 100px;
+    height: 35px;
+    background: #0F4E5E;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 7px;
+    border:none;
+}
+.proceed-to-checkout-btn:hover{
+    background-color: #0D3B47;
+    cursor: pointer;
+}
+.proceed-to-checkout-btn:active{
+    background-color: #0c2f38;
+}
+
 
 
 
