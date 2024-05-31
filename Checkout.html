@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy Days | Checkout </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e1f2c35d72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <style>
+        .container{
+            margin-top: 20%;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="Pictures/Rainydays LOGO.png" class="logo" alt="Rainy Days Logo"></a>
+            <div class="nav-links-pre">
+                <a href="index.html">Home</a>
+                <a href="Men.html">Men</a>
+                <a href="women.html">Women</a>
+                <a href="Contact Us.html">Contact Us</a>
+                <a href="aboutUs.html">About Us</a>    
+            </div>
+            <div class="icons-pre">
+                <a href="shoppingCart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+    </header>  
+    <main>
+        <div><h2 class="checkout-header">Complete Your Checkout</h2></div>
+        <section class="top-checkout"> 
+            <div class="product-selected">
+                <h3 class=all-box-headings>Product Selected</h3>
+                <div class="picture-product"><img src="Pictures/Verde shield.png" alt="picture of Verde Shield Jacket"></div>
+            </div>
+            <div class="product-information">
+                <h3 class="all-box-headings">Product</h3>
+                <div class="product-inf-list">
+                    <ul>
+                        <li>Product:<span>Verde Shield</span></li>
+                        <li>Color:<span>Mixed</span></li>
+                        <li class="green-text">In Stock</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-quantity">
+                <h3 class="all-box-headings">Quantity</h3>
+                <div class="quantity-box">
+                    <form action="">
+                        <input type="number" placeholder="Select Quantity" class="quantity-box-style" id="quantity" min="0" max="10">
+                    </form>
+                </div>
+            </div>
+            <div class="total-price">
+                <h3 class="all-box-headings">Total Price</h3>
+                <div class="price-paragraph">
+                    <p id="price">157.00$</p>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </section>
+        <section class="middle-checkout">
+            <div class="left-side-checkout">
+                <h3 class="head-leftside">Shipping Address</h3>
+                <div class="detail-form-box">
+                    <form>
+                        <h3 class="name-of-forms">Email</h3>
+                        <input type="email" id="email-label" placeholder="Enter Your Email" class="details-decoration">
+                        <br>
+                        <h3 class="name-of-forms">Phone Number</h3>
+                        <input type="tel" id="number-label" placeholder="Enter Your Number" class="details-decoration">
+                        <br>
+                        <h3 class="name-of-forms">Name</h3>
+                        <input type="text" id="name-label" placeholder="Enter Your Name" class="details-decoration">
+                        <br>
+                        <h3 class="name-of-forms">Street Address</h3>
+                        <input type="text" id="address-label" placeholder="Enter Your Street Address" class="details-decoration">
+                        <br>
+                        <h3 class="name-of-forms">Postal Code</h3>
+                        <input type="text" id="postal-label" placeholder="Enter Your Postal Code" class="details-decoration">
+                        <br>
+                        <h3 class="name-of-forms">City</h3>
+                        <input type="text" id="city-label" placeholder="Enter Your City" class="details-decoration">
+                    </form>
+                    <div class="required-fields">
+                        <p>All fields above are required*</p>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </section>
+
+        
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    
+        
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Socials</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">TikTok</a></li>
+                    </ul> 
+                </div>
+                <!-- second section -->
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>Telephone: 123-555-6789</li>
+                        <li>Email: contact@rainydaysoutdoor.com</li>
+                        <li>Messenger: rainydays_adventurer99</li>
+                        <li>WhatsApp: +1 (555) 123-4567</li>
+                    </ul>
+                </div>
+                <!-- third section -->
+                <div class="footer-col">
+                    <h4>Join Our Newsletter</h4>
+                    <form action="">
+                        <input type="text" placeholder="Enter Your Name" class="inputyourname">
+                        <input type="email" placeholder="Enter Your Email" class="Inputyourmail">
+                        <input type="submit" value="submit" class="inputsubmit">
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

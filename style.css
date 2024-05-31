@@ -595,6 +595,189 @@ main{
 .proceed-to-checkout-btn:active{
     background-color: #0c2f38;
 }
+/* checkout page */
+.top-checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.checkout-header{
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.16px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom:-3rem;
+}
+/* first box */
+.product-selected{
+    border-style: groove;
+    height:25.900rem;
+    width:18.75rem
+    
+    
+    
+    
+}
+.all-box-headings{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 750;
+    line-height: normal;
+    text-align: center;
+    text-decoration: underline;
+    padding:10px 0;
+}
+/* second box */
+.product-information{
+    border-style: groove;
+    height:25.900rem;
+    width:18.75rem;
+    
+    
+}
+.product-inf-list ul{
+    list-style:none;
+}
+.product-inf-list ul li{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding:20px
+}
+.product-inf-list ul li span{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  
+}
+.product-inf-list ul .green-text{
+    color:#4DC72F;
+}
+/* third box */
+.product-quantity{
+    border-style: groove;
+    height:25.900rem;
+    width:20rem;
+ 
+}
+.product-quantity .quantity-box form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7.813rem;
+    
+    
+}
+
+
+
+.product-quantity .quantity-box form ::placeholder{
+    color:#ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding:10px;
+    }
+.product-quantity .quantity-box form .quantity-box-style{
+    padding: 20px;
+    width: 16rem;
+    background-color:#0A3641 ;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+/* fourth box */
+.total-price{
+    border-style: groove;
+    height:25.900rem;
+    width:30rem;
+}
+.total-price .price-paragraph{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7.813rem;
+
+}
+.total-price .price-paragraph p{
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* credit detail section */
+.middle-checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.left-side-checkout{
+    border-style: groove;
+    height: 48.625rem;
+    width:40rem;
+}
+.left-side-checkout .head-leftside{
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+
+
+.left-side-checkout .detail-form-box form{
+    margin-left: 3rem;
+    
+    
+}
+
+.left-side-checkout .detail-form-box form input{
+    display: inline-block;
+    width: 20rem; 
+    text-align:left;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.left-side-checkout .detail-form-box form .name-of-forms{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: -20px;
+
+}
+
+
+
+
+
 
 
 
