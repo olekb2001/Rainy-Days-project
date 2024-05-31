@@ -45,6 +45,9 @@ header nav .nav-links-pre a{
     line-height: normal;
     font-weight: 550;
     }
+header nav .nav-links-pre a:hover{
+    color: #DD883A;
+}
 /* edit end */
 .icons a{
     color: white;
@@ -728,6 +731,7 @@ main{
     justify-content: center;
     align-items: center;
     position: relative;
+    gap:7.7rem;
 }
 .left-side-checkout{
     border-style: groove;
@@ -741,38 +745,152 @@ main{
     font-weight: 700;
     line-height: normal;
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;;
 }
 
-
-
 .left-side-checkout .detail-form-box form{
-    margin-left: 3rem;
-    
-    
+    margin-left: 3rem;  
 }
 
 .left-side-checkout .detail-form-box form input{
     display: inline-block;
     width: 20rem; 
     text-align:left;
-    padding: 10px;
+    padding: 12px;
     margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    margin-bottom: 2.7rem;
+    border-radius: 9px;
 
 }
 
 .left-side-checkout .detail-form-box form .name-of-forms{
     color: #000;
-    font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     margin-bottom: -20px;
-
 }
+.left-side-checkout .detail-form-box .required-fields p{
+    margin-left: 3rem;
+    color: #dd0e0e;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* right side checkout */
+.right-side-checkout{
+    border-style: groove;
+    height: 48.625rem;
+    width:40rem;
+}
+.right-side-checkout .head-rightside{
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.right-side-checkout .credit-detail-form-box form{
+    margin-left: 3rem;
+}
+.right-side-checkout .credit-detail-form-box form input{
+    display: inline-block;
+    width: 20rem; 
+    text-align:left;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 2.7rem;
+    border-radius: 9px;
+}
+.right-side-checkout .credit-detail-form-box form .form-names{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: -20px;
+}
+/* bottom part of right side */
+.credit-detail-form-box .summary-of-order-box .summary-header{
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-style: groove;
+    height: 3rem;
+    padding-top: 8px;
+    border-color: #000000;
+    border-width:2px;
+}
+.summary-of-order-box .summary-alignment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.summary-of-order-box .summary-alignment .left-bot-summary{
+    list-style: none;
+    margin-left: 1rem;
+}
+.summary-of-order-box .summary-alignment .right-bot-summary{
+    list-style: none;
+    margin-right: 1rem;
+}
+.summary-of-order-box .summary-alignment .left-bot-summary li{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.summary-of-order-box .summary-alignment .right-bot-summary li{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.summary-of-order-box .summary-alignment .left-bot-summary li span{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.summary-of-order-box .checkout-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}
+.summary-of-order-box .checkout-button .checkout-btn{
+    padding:20px 50px;
+    border-radius: 10px;
+    background-color: #0F4E5E;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.summary-of-order-box .checkout-button .checkout-btn:hover{
+    cursor: pointer;
+    background-color: #0c313a;
+}
+
+
+
 
 
 
@@ -868,8 +986,48 @@ main{
     .about-us-container{
         flex-direction: column;
 
+    }
+    .about-us-container .about-us-text p{
+        min-width: 18.75rem;
+    }
+        
+    /* checkout */
+    .top-checkout{
+        flex-direction: column;
+    }
+    .product-quantity{
+        width:18.75rem;
+    }
+    .total-price{
+        width:18.75rem;
+    }
+    /* checkout bottom */
+    .middle-checkout{
+        flex-direction: column;
 
     }
+    .left-side-checkout{
+        border-style: groove;
+        height: 48.625rem;
+        width:18.75rem;
+    }
+
+    .left-side-checkout .detail-form-box form input{
+        width: 14rem; 
+    }
+    .right-side-checkout{
+        border-style: groove;
+        height: 48.625rem;
+        width:18.75rem;
+    }
+    .right-side-checkout .credit-detail-form-box form input{
+        width: 14rem; 
+    }
+        
+    
+
+    
+
 
 
         
