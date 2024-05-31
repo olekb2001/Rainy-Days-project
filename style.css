@@ -924,7 +924,10 @@ main{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-
+}
+.purchase-finished .page-content .back-to-homepage .back-to-homepage-btn:hover{
+    cursor: pointer;
+    background-color: #0c313a;
 }
 
 
