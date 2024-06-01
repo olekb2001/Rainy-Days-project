@@ -947,7 +947,8 @@ main{
     }
     .nav-links{
         justify-content: center;
-        display: inline-block;
+        align-items: center;
+        flex-direction: column;
         width: 10px;
         position: relative;
         margin-left: 0;
