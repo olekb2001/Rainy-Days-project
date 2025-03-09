@@ -112,7 +112,7 @@ section{
 }
 .content h1{
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     font-style: italic;
     font-weight: 900;
     line-height: normal;
@@ -122,35 +122,22 @@ section{
 .content p{
     color: #FFF;
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin-bottom: 42.35px;
 }
 .content .button{
-    display:flex;
-    width: 167px;
-    height: 59.905px;
-    padding: 21px 69px;
-    justify-content:center;
-    align-items:center;
-    gap: 10px;
-    flex-shrink: 0;
+    padding: 20px 40px;
     background: #FFF;
     border-radius: 10px;
     color: #0F4E5E;
-    font-family: Montserrat;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    white-space: nowrap;
-    border: none;
-    
+    font-size: 15px;
 }
 .content .button:hover{
-    cursor: pointer;  
+    cursor: pointer; 
+    background-color: #B5B5B5; 
 }
 .content .button:active{
     background-color: #B5B5B5;
@@ -305,6 +292,7 @@ section{
 }
 .category-btn button:hover{
     cursor: pointer;
+    background-color: #B5B5B5;
 }
 .category-btn button:active{
     background-color: #B5B5B5;
@@ -1049,6 +1037,20 @@ main{
     .purchase-finished .page-content .back-to-homepage .back-to-homepage-btn{
         margin-top: -1rem;
     }
+    .content h1{
+        font-size: 20px;
+    }
+    .content p{
+        font-size: 13px;
+    }
+    .discount-section{
+        display: none;
+    }
+    .content .button{
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+    
         
     
 
